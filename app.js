@@ -102,13 +102,14 @@ app.get("/filter/:meal_id" ,(req,res)=>{
 })
 
 //mealtypes
-// app.get("/mealtypes" ,(req,res)=>{
-//     db.collection('mealtypes').find().toArray((err,result)=>{
-//         if(err) throw err;
-//         res.send(result)
-//     })
+app.get("/mealtypes" ,(req,res)=>{
+    db.collection('mealtypes').find().toArray((err,result)=>{
+        if(err) throw err;
+        res.send(result)
+    })
     
-// })
+})
+
 
 //rest details (3rd page)
 app.get("/restaurant_data/:id" ,(req,res)=>{
