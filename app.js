@@ -174,7 +174,7 @@ app.post("/deleteOrder",(req,res)=>{
 //to update order
 app.put("/updateOrder/:id",(req,res)=>{
     let orderId= mongo.ObjectId(req.params.id)
-    let status = req.query.status?req.query.status:'Pending';
+    let status = req.query.status?req.query.status:'Pending'
     db.collection('orders').updateOne(
         {_id:orderId},
         {$set:{
