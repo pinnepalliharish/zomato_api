@@ -164,7 +164,7 @@ app.post("/menuitem",(req,res)=>{
 })
 
 //to delete order
-app.post("/deleteOrder",(req,res)=>{
+app.delete("/deleteOrder",(req,res)=>{
     db.collection('orders').remove({},(err,result)=>{
         if(err) throw err;
         res.send(result)
