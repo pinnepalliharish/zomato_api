@@ -61,6 +61,7 @@ https://pomato-api.herokuapp.com/restaurant_menu/2
 ----------------------------------------------------------------------------------------------------------------------------------
 
 page 4
+
 localhost:7945/menuitem  (menuitems ordered by user in 3rd page)
 https://pomato-api.herokuapp.com/menuitem
 
@@ -79,6 +80,7 @@ https://pomato-api.herokuapp.com/orders?email="pbharish@gmail.com"
 ----------------------------------------------------------------------------------------------------------------------------------
 
 update order 
+
 localhost:7945/updateOrder/6203fdf06cbacd5035133030?status=success   (put)
 https://pomato-api.herokuapp.com/updateOrder/6203fdf06cbacd5035133030?status=success
 
@@ -86,5 +88,6 @@ https://pomato-api.herokuapp.com/updateOrder/6203fdf06cbacd5035133030?status=suc
 ----------------------------------------------------------------------------------------------------------------------------------
 
 delete order
+
 localhost:7945/deleteOrder  
 https://pomato-api.herokuapp.com/deleteOrder
