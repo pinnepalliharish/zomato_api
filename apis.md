@@ -71,7 +71,7 @@ https://pomato-api.herokuapp.com/placeOrder
 ----------------------------------------------------------------------------------------------------------------------------------
 
 page 5
-http://localhost:7945/orders
+http://localhost:7945/orders       (to see the list of orders)
 https://pomato-api.herokuapp.com/orders
 
 http://localhost:7945/orders?email="pbharish@gmail.com"
@@ -91,3 +91,11 @@ delete order
 
 localhost:7945/deleteOrder  
 https://pomato-api.herokuapp.com/deleteOrder
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+github repo link:
+
+https://github.com/pinnepalliharish/zomato_api.git
+
+
